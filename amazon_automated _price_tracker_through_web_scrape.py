@@ -29,7 +29,7 @@ if price_as_float<Buy_price:
 
     with smtplib.SMTP("smtp.gmail.com", port=587) as connection:
         connection.starttls()
-        result = connection.login("ksaket23458@gmail.com", "xsgoasgquagsrwqe")
+        result = connection.login("ksaket23458@gmail.com", "my password")
         connection.sendmail(
             from_addr="ksaket23458@gmail.com",
             to_addrs="ksaket23458@gmail.com",
