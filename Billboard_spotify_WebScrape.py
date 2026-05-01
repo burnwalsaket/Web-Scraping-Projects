@@ -16,11 +16,11 @@ sp = spotipy.Spotify(
     auth_manager=SpotifyOAuth(
         scope="playlist-modify-private",
         redirect_uri="https://example.com",
-        client_id="*************************",
-        client_secret="************************",
+        client_id="my_client_id",
+        client_secret="my_client_secret",
         show_dialog=True,
         cache_path="token.txt",
-        username="***********************",
+        username="my_username",
     )
 )
 user_id = sp.current_user()["id"]
