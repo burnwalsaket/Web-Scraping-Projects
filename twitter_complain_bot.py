@@ -6,8 +6,8 @@ from selenium.webdriver.common.by import By
 
 PROMISED_DOWN = 30
 PROMISED_UP = 30
-TWITTER_EMAIL = "burnwalsaket@gmail.com"
-TWITTER_PASSWORD = "Ranchi@834001"
+TWITTER_EMAIL = "abcdef@gmail.com"
+TWITTER_PASSWORD = "abcdef"
 
 class InternetSpeedTwitterBot:
     def __init__(self):
